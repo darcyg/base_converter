@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "base_converter", "base_converter.vcproj", "{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xor", "..\xor\xor.vcproj", "{E1DF0A90-1BD4-4376-9655-2A5285657FB1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug pipe = Debug pipe
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Debug.ActiveCfg = Debug|Win32
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Debug.Build.0 = Debug|Win32
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Debug pipe.ActiveCfg = Debug|Win32
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Debug pipe.Build.0 = Debug|Win32
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Release.ActiveCfg = Release|Win32
+		{8333E73D-5465-4DF3-9996-4EDEC6A9C8FE}.Release.Build.0 = Release|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Debug.ActiveCfg = Debug|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Debug.Build.0 = Debug|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Debug pipe.ActiveCfg = Debug pipe|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Debug pipe.Build.0 = Debug pipe|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Release.ActiveCfg = Release|Win32
+		{E1DF0A90-1BD4-4376-9655-2A5285657FB1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
